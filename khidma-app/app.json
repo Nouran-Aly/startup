@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "khidma",
+    "slug": "khidma-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [
+      "expo-font",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "نحتاج صلاحية الصور لرفع صورة البطاقة.",
+          "cameraPermission": "نحتاج الكاميرا لصورة البطاقة."
+        }
+      ],
+      [
+        "expo-av",
+        {
+          "microphonePermission": "نحتاج المايكروفون لرسائل الصوت."
+        }
+      ]
+    ]
+  }
+}
